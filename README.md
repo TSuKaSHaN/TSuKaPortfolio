@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.wrap{
+  overflow: hidden;
+}
+
+.top-img:before{
+  content:"";
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height:100vh;
+  background:url(../img/minatomirai.jpg) center no-repeat;
+  background-size:cover;
+}
+
+.outer{
+  position: relative;
+}
+
+.top-text{
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 450px;
+  margin: 0 auto;
+}
+
+.top-text h1{
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.profile{
+  background-image: url(../img/seawave.jpg);
+  background-size: cover;
+  padding: 50px;
+}
+
+.hutoumei{
+  background-color:rgba(255,255,255,0.7);
+  padding-bottom: 50px;
+}
+
+h2{
+  text-align: center;
+  padding-top: 100px;
+}
+
+#icon{
+  text-align: center;
+  border-radius: 50%;
+}
+
+#Works{
+  background-image: url(../img/coding.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+#Works img{
+  width: 80%;
+  height: auto;
+  text-align: center;
+}
+
+#contact{
+  background-image: url(../img/fix-bg.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+.last{
+  background-color: #696969;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sousin{
+  width: 300px;
+}
